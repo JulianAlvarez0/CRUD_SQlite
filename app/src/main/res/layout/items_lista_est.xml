@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_default"
+    android:weightSum="1"
+    android:background="@color/cardview_shadow_end_color">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_default"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvidEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:text="Id" />
+
+        <TextView
+            android:id="@+id/tvNombreEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nombre" />
+
+        <TextView
+            android:id="@+id/tvCorreoEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="correo" />
+
+        <TextView
+            android:id="@+id/tvCursoEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="curso" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="@string/eliminar" />
+</LinearLayout>
